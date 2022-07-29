@@ -5,14 +5,18 @@
 package main
 
 import (
+	"os"
+
+	"github.com/Artexus/api-matthew-backend/routes"
+	"github.com/Artexus/api-matthew-backend/shared"
 	"github.com/gin-gonic/gin"
-	"github.com/VoidArtanis/go-rest-boilerplate/routes"
-	"github.com/VoidArtanis/go-rest-boilerplate/shared"
+	"github.com/joho/godotenv"
 )
 
 var DB = make(map[string]string)
 
 func main() {
+	godotenv.Load()
 
 	//Db Connect and Close
 	shared.Init()
@@ -23,5 +27,5 @@ func main() {
 	routes.InitRouter(r)
 
 	//Run Server
-	r.Run(":8080")
+	r.Run(":" + os.Getenv("SERVER_PORT"))
 }
