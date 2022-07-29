@@ -1,8 +1,10 @@
 # github.com/form3tech-oss/jwt-go v3.2.5+incompatible
+## explicit
 github.com/form3tech-oss/jwt-go
 # github.com/gin-contrib/sse v0.1.0
 github.com/gin-contrib/sse
 # github.com/gin-gonic/gin v1.8.1
+## explicit
 github.com/gin-gonic/gin
 github.com/gin-gonic/gin/binding
 github.com/gin-gonic/gin/internal/bytesconv
@@ -26,13 +28,18 @@ github.com/goccy/go-json/internal/encoder/vm_indent
 github.com/goccy/go-json/internal/errors
 github.com/goccy/go-json/internal/runtime
 # github.com/jinzhu/copier v0.3.5
+## explicit
 github.com/jinzhu/copier
 # github.com/jinzhu/gorm v1.9.16
+## explicit
 github.com/jinzhu/gorm
 github.com/jinzhu/gorm/dialects/postgres
 # github.com/jinzhu/inflection v1.0.0
 github.com/jinzhu/inflection
+# github.com/jinzhu/now v1.1.4
+## explicit
 # github.com/joho/godotenv v1.4.0
+## explicit
 github.com/joho/godotenv
 # github.com/json-iterator/go v1.1.12
 github.com/json-iterator/go
@@ -55,8 +62,10 @@ github.com/pelletier/go-toml/v2/internal/ast
 github.com/pelletier/go-toml/v2/internal/danger
 github.com/pelletier/go-toml/v2/internal/tracker
 # github.com/pkg/errors v0.9.1
+## explicit
 github.com/pkg/errors
 # github.com/speps/go-hashids v2.0.0+incompatible
+## explicit
 github.com/speps/go-hashids
 # github.com/ugorji/go/codec v1.2.7
 github.com/ugorji/go/codec

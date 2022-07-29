@@ -1,6 +1,6 @@
 module github.com/Artexus/api-matthew-backend
 
-go 1.12
+go 1.16
 
 require (
 	github.com/form3tech-oss/jwt-go v3.2.5+incompatible
