@@ -1,4 +1,4 @@
-CREATE TYPE token_type AS ENUM ('access_token', 'refresh_token');
+--CREATE TYPE IF NOT EXISTS token_type AS ENUM ('access_token', 'refresh_token');
 CREATE TABLE IF NOT EXISTS tokens
 (
 	id SERIAL NOT NULL,
