@@ -14,7 +14,7 @@ var err error
 
 func Init() {
 	//PostgreSQL
-	text := fmt.Sprintf("host=%v user=%v port=%v dbname=%v sslmode=disable password=%v",
+	text := fmt.Sprintf("host=%v user=%v port=%v dbname=%v password=%v",
 		os.Getenv("DB_HOST_NAME"), os.Getenv("DB_USERNAME"), os.Getenv("DB_PORT"), os.Getenv("DB_NAME"), os.Getenv("DB_PASSWORD"))
 	db, err = gorm.Open("postgres", text)
 	if err != nil {
