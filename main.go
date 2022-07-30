@@ -27,5 +27,5 @@ func main() {
 	routes.InitRouter(r)
 
 	//Run Server
-	r.Run(":" + os.Getenv("SERVER_PORT"))
+	r.Run(":" + os.Getenv("PORT"))
 }
